@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to right, #FFCDD2, #7E57C2);
+    text-align: center;
+}
+
+p {
+    margin-top: 100px;
+    color: #004D40;
+}
+
+.h {
+    color: purple;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+#img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    background-color: aliceblue;
+    position: fixed;
+}
+
+.link {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.link:hover {
+    background-color: darksalmon;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.h1 {
+    font-size: 30px;
+    color: black;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.inspire {
+    height: 500px;
+    margin-left: 50px;
+    transition: transform(0.2);
+    border: 10px solid #AAAAAA;
+
+}
+
+.inspire:hover {
+    transform: scale(0.9)
+}
